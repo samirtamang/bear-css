@@ -1,0 +1,127 @@
+<html>
+    <head>
+        <title>bear</title>
+        <style>
+            .main{
+                height: 200px;
+                width: 210px;
+                border-radius: 50%;
+                background-color: #824e34;
+                position:relative;
+                top: 180px;
+                left: 310px;
+            }
+            .mouth{
+                height: 70px;
+                width: 80px;
+                background-color: burlywood;
+                border-radius: 50%;
+                position:relative;
+                top: 80px;
+                left: 65px;
+            }
+            .ear1{
+                grid-area:top1 ;
+                height: 90px;
+                width: 90px;
+                background-color: #824e34;
+                border-radius: 50%;
+                position:relative;
+                top: 335px;
+                left: 280px;
+            }
+            .ear2{
+                grid-area:top2;
+                height: 90px;
+                width: 90px;
+                background-color: #824e34;
+                border-radius: 50%;
+                position:relative;
+                top: 245px;
+                left: 450px;
+            }
+            .eye,.iear,.ear{
+                display: grid;
+                grid-template-areas: 'top1 top2';
+            }
+            .iear1{
+                grid-area:top1 ;
+                height: 65px;
+                width: 65px;
+                background-color: #f2aacb;
+                border-radius: 50%;
+                position:relative;
+                top: 20px;
+                left: 20%;
+            }
+
+            .iear2{
+                grid-area:top1 ;
+                height: 65px;
+                width: 65px;
+                background-color: #f2aacb;
+                border-radius: 50%;
+                position:relative;
+                top: 20%;
+                left: 10%;
+            }
+            .eye1{
+                grid-area:top1 ;
+                height: 20px;
+                width: 20px;
+                background-color: whitesmoke;
+                border-radius: 50%;
+                position:relative;
+                top: 80px;
+                left: 40px;
+            }
+            .eye2{
+                grid-area:top1 ;
+                height: 20px;
+                width: 20px;
+                background-color: whitesmoke;
+                border-radius: 50%;
+                position:relative;
+                top: 80px;
+                left: 145px;
+            }
+            .nose{
+                height: 15px;
+                width: 30px;
+                background-color: black;
+                border-radius: 50%;
+                position:relative;
+                top: 20px;
+                left: 25px;
+            }
+            .body{
+                height: 300px;
+                width: 260px;
+                background-color: #824e34;
+                position: relative;
+                left: 280px;
+                top: 165px;
+                border-radius: 45%;
+            }
+             
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="ear1"><div class="iear1"></div></div>
+            <div class="ear2"><div class="iear2"></div></div>
+        </div>    
+        </div>
+        <div class="main">
+            <div class="eye">
+                <div class="eye1"></div>
+                <div class="eye2"></div>
+            </div>
+            <div class="mouth">   
+                <div class="nose"></div> 
+            </div>   
+        </div> 
+        <div class="body"></div>
+        <div></div>
+    </body>
+</html>
